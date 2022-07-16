@@ -1,18 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
-    background-image: url(./game.png);
-    height: 95vh;
-    width: 95vw;
-    border-radius:10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(229, 249, 245);
+        background-image: url(./Verde.png);
+        background-repeat: no-repeat;
+        heiht: 100vh;
+        /* width: 100vw; */
+        /* border-radius: 10px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(229, 249, 245);
     
 }
 
+.container {
+    padding: 20px;
+    color: chartreuse;
+    width: 30px;
+    border: 15px solid;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin-left: 20;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.containerr {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inherit;
+    background-color: black;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+    color: chartreuse;
+    padding: 2%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: "Diplomata SC", cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 #snake {
-    width: 40%;
+    width: 30%;
     background-color: aliceblue;
     box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
     color: bisque;
@@ -20,7 +58,10 @@ body{
     margin-top: 0%;
 }
 
-h1{
-    color: pink;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+    padding: 10px;
+    color: rgb(255, 3, 179);
+    font-family: "Diplomata SC", cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+   
 }
